@@ -153,4 +153,4 @@ By running the script with `$ python build_gitlab_database.py` we end up with si
 ## [](#conclusion)Conclusion
 In this post we have shown how to collect project-related data from GitLab without much effort. We used _python-gitlab_ to accomplish the task and ended up with data being saved in CSV files. 
 In a future blog post we will take a look at our data and compute some statistics.
-The `build_database.py` script is included in [this repository](https://github.com/JACKSONMEISTER/gitlab-data).
+The `build_database.py` script is included in [this repository](https://gitlab.com/JACKSONMEISTER/gitlab-data).
