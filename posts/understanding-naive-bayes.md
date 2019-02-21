@@ -1,5 +1,7 @@
 # Understanding Naive Bayes using Python and Pandas #
 
+### 05/08/2018 ###
+
 Naive Bayes is one of the simplest and most common classification methods in machine learning. In this blog post we don't want to focus on all the mathematical stuff, but instead we're going to implement our own quick'n'dirty Naive Bayes solution using Python and [Pandas](https://pandas.pydata.org/). We will get some training data, apply _Laplace Smoothing_ a.k.a. _1-Up Smoothing_ and classify an unseen record of data.
 
 ## [](#data)Data

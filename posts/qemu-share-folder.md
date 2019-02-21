@@ -1,5 +1,7 @@
 # QEMU - Sharing folders between Linux Host and Windows Guest #
 
+### 05/13/2018 ###
+
 In this post we will take a quick look on how to share a folder between a Linux Host and a Windows Guest within a QEMU environment. 
 
 ## [](#startup-script)Startup Script
