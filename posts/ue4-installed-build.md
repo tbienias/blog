@@ -185,6 +185,6 @@ Comment=Epic's Game Engine
 
 These files have to be placed in **$HOME/.local/share/applications**. The ue4editor icon is contained in the Papirus Icon Suite. Alternatively you can grab an icon from UE's source tree and place it in **$HOME/.local/share/icons**.
 
-Now we can have fun with UE4 and distribute our UE4 Installed Engine Build to our team.
+Now we can have fun with UE4 on Arch Linux and distribute our UE4 Installed Engine Build to our team.
 
 ![](assets/ue4-desktop.png)
