@@ -136,7 +136,7 @@ scp -P 2222 localhost:~/ue-4.22.2.tar ~
 Install the Engine to /opt. You can install it wherever you want - an even better practice would be to create an Arch Linux Packagebuild.
 
 ```bash
-cd /opt && sudo mkdir ue-4.22.2 && sudo chown -R jacksonmeister:jacksonmeister ./* && cd ./ue-4.22.2 && tar xf ~/ue-4.22.2.tar
+cd /opt && sudo mkdir ue-4.22.2 && sudo chown -R $USER:$USER ./* && cd ./ue-4.22.2 && tar xf ~/ue-4.22.2.tar
 ```
 
 ### [](#set-permissions)Set the right Permissions
