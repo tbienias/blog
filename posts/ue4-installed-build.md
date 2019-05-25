@@ -1,4 +1,4 @@
-# Unreal Engine 4 - Installed Engine Build under Linux
+# Unreal Engine 4 - Installed Engine Build under Arch Linux
 
 ### 05/21/2019
 
@@ -8,7 +8,7 @@ For a very long time I wanted to make an [Installed Engine Build](https://docs.u
 
 Since setting UE4 up for Arch Linux is not an easy task, because of mismatching compiler versions etc., I wanted to take the fastest route I could find. There are several problems in building UE4 for Arch Linux as you can see in [this thread](https://aur.archlinux.org/packages/unreal-engine).
 
-This procedure will take up approximately 200 Gigabytes, but the final Engine installation will only have around 15 Gigabytes.
+This procedure will take up approximately 200 Gigabytes, but the final Engine Installation will only occupy around 15 Gigabytes.
 
 ## [](#vm-setup)Virtual Machine Setup
 
