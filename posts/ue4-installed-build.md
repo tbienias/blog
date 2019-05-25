@@ -185,6 +185,10 @@ Comment=Epic's Game Engine
 
 These files have to be placed in **$HOME/.local/share/applications**. The ue4editor icon is contained in the Papirus Icon Suite. Alternatively you can grab an icon from UE's source tree and place it in **$HOME/.local/share/icons**.
 
+## [](#conclusion) Conclusion
+
 Now we can have fun with UE4 on Arch Linux and distribute our UE4 Installed Engine Build to our team.
+We managed to craft an Installed Engine Build using a VM and installed it to our Arch Linux host.
+The build is redistributable for teams and easy to install. This type of build is also known as Rocket Build - the same type that is distributed within the Epic Launcher.
 
 ![](assets/ue4-desktop.png)
