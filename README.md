@@ -3,6 +3,8 @@ Here I take down some more or less remarkable things.
 
 ## Content ##
 
+#### [09/02/2019 - Scikit-Learn - Linear Regression](/posts/scikit-learn_linear-regression.ipynb) ####
+
 #### [05/21/2019 - Unreal Engine 4 - Installed Engine Build on Arch Linux](/posts/ue4-installed-build.md) ####
 
 #### [06/04/2018 - Python - Virtual Environment on Linux](/posts/python-virtualenv.md) ####
