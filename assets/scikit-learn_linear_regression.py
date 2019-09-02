@@ -92,11 +92,16 @@ regression.fit(x_train, y_train)
 y_prediction = regression.predict(x_test)
 
 
-# ### Plot Predicted Results and print metrics ###
+# %% [markdown]
+# ### Plot Predicted Results ###
 
 plt.scatter(x_test, y_test)
 plt.plot(x_test, y_prediction, color='blue')
 plt.show()
+
+
+# %% [markdown]
+# ### Print Metrics ###
 
 print('Coefficient: \n', regression.coef_)
 print('Intercept: \n', regression.intercept_)
