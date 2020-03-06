@@ -1,4 +1,4 @@
-# JACKSONMEISTERs BLOG #
+# tbienias BLOG #
 Here I take down some more or less remarkable things.
 
 ## Content ##
