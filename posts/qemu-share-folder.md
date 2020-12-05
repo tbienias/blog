@@ -37,15 +37,15 @@ Now we have to install the appropriate driver for our system to recognize the HD
 ### [](#mapping-network-drive)Mapping Network Drive
 To easily map a network drive, we go to _This PC_ and click on _Map network drive_:
 
-![](assets/map-network-drive-1.png)
+![](../assets/map-network-drive-1.png)
 
 Then, we put the hosts adress with a QEMU-suffix to the folder text box - `\\10.0.2.4\qemu`:
 
-![](assets/map-network-drive-2.png)
+![](../assets/map-network-drive-2.png)
 
 Click on finish and we have our connected Samba drive:
 
-![](assets/map-network-drive-3.png)
+![](../assets/map-network-drive-3.png)
 
 And this is it! Now we're ready to share files between our Linux Host and our Windows Guest and vice versa.
 
