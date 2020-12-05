@@ -3,6 +3,8 @@ Here I take down some more or less remarkable things.
 
 ## Content ##
 
+#### [12/05/2020 - Home Server Microservices Container Setup](/posts/home-server.md) ####
+
 #### [12/01/2020 - Arch Linux Package Hygiene](/posts/arch-package-hygiene.md) ####
 
 #### [09/02/2019 - Scikit-Learn - Linear Regression](/posts/scikit-learn_linear-regression.ipynb) ####
