@@ -193,4 +193,4 @@ Now we can have fun with UE4 on Arch Linux and distribute our UE4 Installed Engi
 We managed to craft an Installed Engine Build using a VM and installed it to our Arch Linux host.
 The build is redistributable for teams and easy to install. This type of build is also known as Rocket Build - the same type that is distributed within the Epic Launcher.
 
-![](..assets/ue4-desktop.png)
+![](../assets/ue4-desktop.png)
