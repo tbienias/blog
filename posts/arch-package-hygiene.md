@@ -147,7 +147,7 @@ However keep in mind that this makes it impossible to downgrade or reinstall
 packages in offline mode. `-r` switch means remove and `-k` switch defines how
 many of the latest versions should be kept.
 
-```$ paccache -ruk0``` rmeoves all cached packages which are uninstalled from
+```$ paccache -ruk0``` removes all cached packages which are uninstalled from
 hard drive. `-u` switch indicates to remove uninstalled packages.
 
 One could also tend to provide a combination of both methods. For example to 
