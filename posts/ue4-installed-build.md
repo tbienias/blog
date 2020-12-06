@@ -96,13 +96,13 @@ I've made some changes to a few config files. This is more a note to myself, but
 Download the repository from GitLab:
 
 ```bash
-cd .. && git clone https://gitlab.com/JACKSONMEISTER/ue4-qoli.git --branch 4.22.2 --single-branch && cd ./ue-4.22.2
+cd .. && git clone git@github.com:tbienias/UE4-QoL.git && cd ./ue-4.22.2
 ```
 
 Patch UE source with updated configs:
 
 ```bash
-git apply ../ue4-qoli/ue-4.22.2-qoli.patch
+git apply ../UE4-QoL/ue-4.22.2-qol.patch
 ```
 
 ### [](#create-installed-build)Create Installed Build
