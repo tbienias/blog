@@ -2,7 +2,7 @@
 
 ### 05/08/2018 ###
 
-Naive Bayes is one of the simplest and most common classification methods in machine learning. In this blog post we don't want to focus on all the mathematical stuff, but instead we're going to implement our own quick'n'dirty Naive Bayes solution using Python and [Pandas](https://pandas.pydata.org/). We will get some training data, apply _Laplace Smoothing_ a.k.a. _1-Up Smoothing_ and classify an unseen record of data.
+Naive Bayes is one of the simplest and most common classification methods in machine learning. In this blog post we don't want to focus on all the mathematical stuff, but instead we're going to implement our own quick'n'dirty Naive Bayes solution using Python and Pandas. We will get some training data, apply _Laplace Smoothing_ a.k.a. _1-Up Smoothing_ and classify an unseen record of data.
 
 ## [](#data)Data
 ### [](#training-data)Training Data
@@ -360,4 +360,4 @@ which tells us that _Sales_ aging in-between _26-30_ and earning _46K-50K_ will 
 `P(Senior) * P(IT | Senior) * P(21-25 | Senior) * P(66k-70k | Senior) = 0.00011537906831402338`
 
 ## [](#conclusion)Conclusion
-And this is it! Our Naive Bayes implementation using Python and Pandas is finished and now we have a basic understanding of what steps are necessary to get a Naive Bayes computation up and running. If you like to play around with this implementation I've uploaded the Jupyter-Notebook to my [GitLab](https://gitlab.com/JACKSONMEISTER/understanding-naive-bayes). Anyways if you want to use Naive Bayes in a production environment I'd suggest that you use a rock solid implementation like the one from [scikit-learn](http://scikit-learn.org/stable/) instead of going on your own.
+And this is it! Our Naive Bayes implementation using Python and Pandas is finished and now we have a basic understanding of what steps are necessary to get a Naive Bayes computation up and running. If you like to play around with this implementation I've uploaded the Jupyter-Notebook to my [GitHub](https://github.com/tbienias/naive_bayes_hands-on). Anyways if you want to use Naive Bayes in a production environment I'd suggest that you use a rock solid implementation like the one from [scikit-learn](http://scikit-learn.org/stable/) instead of going on your own.
