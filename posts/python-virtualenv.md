@@ -12,7 +12,7 @@ in a separate directory. Another advantage is that you don't pollute your OS wit
 ## [](#lets-get-started)Let's Get Started
 ### [](#setting-up)Setting Up
 We move to the top-level directory, which shall contain the folder for our virtual environment. 
-First, let us assume that we're currently in our home directory */home/jacksonmeister*.
+First, let us assume that we're currently in our home directory *~*.
 Then we create a new virtual environment called *my_env*:
 
 ```bash
@@ -31,7 +31,7 @@ We can easily check whether or not it worked. We do so by looking for our Python
 which python
 ```
 
-This prints us: ```/home/jacksonmeister/my_env/bin/python```.
+This prints us: ```/~/my_env/bin/python```.
 
 ### [](#installing-site-packages)Installing site-packages
 Now we can use *pip* for installing any site-packages we need. For example:
