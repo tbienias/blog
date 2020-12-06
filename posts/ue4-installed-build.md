@@ -93,7 +93,7 @@ git clone https://USER:TOKEN@github.com/EpicGames/UnrealEngine.git --branch 4.22
 ### [](#minor-qoli)Make Minor Quality of Life Improvements for UE4 (Optional)
 
 I've made some changes to a few config files. This is more a note to myself, but maybe someone does find it useful.
-Download the repository from GitLab:
+Download the repository from GitHub:
 
 ```bash
 cd .. && git clone git@github.com:tbienias/UE4-QoL.git && cd ./ue-4.22.2
