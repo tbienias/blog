@@ -2,12 +2,12 @@
 
 ### 26/04/2018 ###
 
-[GitLab](https://gitlab.com/) offers several functionalities for keeping track of project status. This article will explain how to gather data from GitLab. Here we will explain how-to gather all the meaningful data GitLab provides for us.
+GitLab offers several functionalities for keeping track of project status. This article will explain how to gather data from GitLab. Here we will explain how-to gather all the meaningful data GitLab provides for us.
 
 ## [](#gathering-data-easily)Gathering Data Easily
 ### [](#gitlab-api)GitLab API
 Since we're lazy we aim for gathering data the easy way. GitLab provides a splendid [API](https://docs.gitlab.com/ee/api/) for querying all kinds of project-related data. A quick scan of their documentation states that we're gonna use `GET` requests for accessing data through GitLab's REST-API. 
-Anyways, we want an even simpler solution so [googling](https://www.google.com/search?hl=en&as_q=gitlab+python) for _gitlab python_ spits out [this little gem](https://github.com/python-gitlab/python-gitlab). _python-gitlab_ is a Python wrapper for GitLab - what do we want more?! Let's see how easy it is to gather some data for evaluation purposes.
+Anyways, we want an even simpler solution so googling after _gitlab python_ spits out [this little gem](https://github.com/python-gitlab/python-gitlab). _python-gitlab_ is a Python wrapper for GitLab - what do we want more?! Let's see how easy it is to gather some data for evaluation purposes.
 ### [](#python-gitlab)python-gitlab
 For evaluating this library we want to print arbitrary project names of publicly available projects hosted on GitLab. 
 So first things first - install _python-gitlab_:
@@ -87,7 +87,7 @@ So let's take care of our imports:
 import gitlab
 import csv
 ```
-As seen [above](#gitlab_count_public_repos) we get a list of objects for each entity we're querying. 
+As seen above we get a list of objects for each entity we're querying. 
 For the sake of simplicity we need to create a method that takes a list and a name as inputs and pumps the objects into a CSV file named after (guess what) the inputted name:
 ```python
 def build_csv(object_list, csv_name):
@@ -153,4 +153,4 @@ By running the script with `$ python build_gitlab_database.py` we end up with si
 ## [](#conclusion)Conclusion
 In this post we have shown how to collect project-related data from GitLab without much effort. We used _python-gitlab_ to accomplish the task and ended up with data being saved in CSV files. 
 In a future blog post we will take a look at our data and compute some statistics.
-The `build_database.py` script is included in [this repository](https://gitlab.com/JACKSONMEISTER/gitlab-data).
+The `build_database.py` script is included in [this repository](https://github.com/tbienias/gitlab-data).
